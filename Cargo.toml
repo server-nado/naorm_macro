@@ -2,7 +2,8 @@
 name = "naorm_macro"
 version = "0.1.0"
 edition = "2024"
-
+description = "A lightweight ORM derive macro built on top of **sqlx**. It generates SQL constants and helper query builders for your structs, so you can keep SQL centralized while still using `sqlx` types."
+license = "MIT OR Apache-2.0"
 [lib]
 proc-macro = true
 
